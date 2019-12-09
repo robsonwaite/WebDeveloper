@@ -1,0 +1,23 @@
+h1  {
+  text-align: left;
+  border-bottom: rgba(0, 0, 0, 0.15) solid 1px;
+  width: 96%;
+  color:rgba(0, 0, 0, 0.5);
+  font-family: Raleway;
+  margin-left: 1.66%;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 2.5px;
+}
+div {
+
+
+}
+
+img {
+  margin: 1.66%;
+  float: left;
+  width: 30%;
+
+}

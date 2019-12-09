@@ -1,0 +1,24 @@
+h1 {
+  color: #8A2BE2;
+  background: rgba(0,0,0,0.2);
+  /* elementos da borda feitos separadamente  */
+  border-color: rgba(150,255,0,.2);
+  border-width: 5px;
+  border-style: solid;
+}
+p {
+  color: #8A2BE2;
+  /* elementos da borda feitos em uma unica linha  */
+  border:rgba(150,255,0,.2) 5px solid;
+}
+body{
+
+  background: url(http://wavesound.com.br/wp-content/uploads/2017/07/fundo-slider-01.jpg);
+/* não repetir a imagem  */
+  background-repeat: no-repeat;
+/* preencher o espaço com a imagem  */
+  background-size: cover;
+}
+div{
+  background:rgba(0,0,0,0.2);
+}

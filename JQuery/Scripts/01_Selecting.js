@@ -1,0 +1,5 @@
+// $("SelectorGoesHere") //
+
+// exemplo $("img") ...
+// id
+// $("#???")

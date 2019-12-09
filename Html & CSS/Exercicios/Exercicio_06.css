@@ -1,0 +1,31 @@
+body {
+    border:20px grey solid;
+    margin: 20px auto;
+    padding: 20px;
+    
+    width:80%;
+    max-width: 700px;
+
+    font-family: Source Sans Pro;
+    text-align: justify;
+    
+}
+.Date {
+    text-transform: uppercase;
+    color:rgba(139, 63, 25, 0.753);
+    letter-spacing: 0.2rem;
+    
+    
+    
+}
+.Post {
+    margin-bottom: 20px;
+}
+.Quote {
+    border-left: 5px grey solid;
+    padding-left: 5px;
+}
+hr {
+	border-top: 1px dotted #8c8b8b;
+	border-bottom: 1px dotted #fff;
+}

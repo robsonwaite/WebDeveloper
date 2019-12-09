@@ -1,0 +1,12 @@
+Sistema de Cores
+
+Hexadecimal
+0,1,..,9,A,B,C,D,E,F
+# _ _ _ _ _ _ as primeiras duas casas são para o vermelho, as seguites para azul e verde.
+
+RGB
+rgb(0:255, 0:255,0:255) A quantidade das cores e feita de 0 a 100
+
+RGBA
+Adiciona mais uma casa decimal para transparencia.
+rgba(100,50,50, .4) transparencia vai de 0 - 1

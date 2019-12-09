@@ -1,0 +1,20 @@
+<!-- <%= atribuir um valor/variavel -->
+<!-- <% atribuir logica (if, for ...) -->
+
+
+<h1> The Posts Page - Control Flow </h1>
+
+    <% for(var i = 0; i < posts.length; i++){ %>
+        <li>
+            <%= posts[i].title %> - <strong><%= posts[i].author %></strong>
+        </li>
+    <% } %>
+
+
+<!-- ou utilizando forEach -->
+
+<% posts.forEach(function(post){ %>
+    <li>
+            <%= post.title %> - <strong><%= post.author %></strong>
+    </li>
+<% }) %>

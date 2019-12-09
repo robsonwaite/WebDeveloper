@@ -1,0 +1,28 @@
+Comentarios => //
+limpar => Clear()
+mensagem pro usuario >> alert()
+Gerar Log >> console.log()
+coletar input do usuario >> prompt()
+
+Operadores Logicos ____________________
+Uso do "===" compara o valor e a classe
+exemplo usar apenas "==" teriamos true em 1 == "1"
+
+&& => e
+|| => ou
+! => Não
+
+Loops___________________________________
+
+For é significativamente diferente em JavaScript
+for(var i = 0; i < 20; i++ ){}
+seria então inicio, criando uma variavel interna, limite,
+e o fator de incremento do for.
+
+
+ForEach() aula 17 - sec 13 uDemy
+
+
+DOM
+
+Select >> Manipulate

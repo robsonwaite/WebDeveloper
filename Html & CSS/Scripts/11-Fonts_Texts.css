@@ -1,0 +1,25 @@
+h1 {
+  color:rgba(0,0,250,0.65);
+  background-color: rgba(0,0,250,0.5);
+  border: rgba(0,0,250,0.18) 3px dotted;
+/* algumas fontes iniciadas com numeros precisam estar entre aspas */
+  font-family: Oswald;
+  font-size: 35px;
+  text-align: center;
+
+
+}
+p {
+  font-family: Oswald;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* span é um marcador de texto  */
+span {
+  font-size: 1.3em;
+  font-weight: bold;
+  /* em é em proporção ao que esta envolta dele  */
+  text-decoration: underline;
+}

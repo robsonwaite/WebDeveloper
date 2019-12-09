@@ -1,0 +1,62 @@
+/* Element select */
+body{
+  background: rgba(0, 0, 0, 0.3);
+}
+h1{
+  color: rgba(255, 55, 0, 0.7);
+}
+li{
+  border: 2px solid black;
+  color: yellow;
+}
+/* ID select */
+/* selecionando um elemento com uma id especifica usando # */
+#tx1{
+  border: 2px solid black;
+  color: red;
+}
+/* Class select */
+ /* utilizando uma classe para edição usando ponto "."  */
+.line{
+  border: 2px solid green;
+  color: black;
+  text-decoration: line-through;
+}
+
+/* Star select */
+
+*{
+  /* seleciona toda a pagina  */
+  /* color: red; */
+}
+
+/* descendant selector "a" */
+
+/* Seleciona objetos que são "descendentes" de outro, isto é,
+se encontram dentro de um outro objeto */
+/* ex;
+ li a{
+}
+div p {
+
+}
+...
+*/
+
+/* adjacent select */
+
+/* edita aqueles que vem apos um elemento exemplo um ul apos de h4  */
+/* h4 + ul  */
+
+/* atribute selector  */
+
+/* seleciona todos os msm atributos
+a[href]{}
+input[type="checkbox"]{} */
+
+/* nth of type */
+/* seleciona o n° de um elemento e edita apenas aquele */
+
+/* ul:nth-of-type("numero"){
+  ...
+} */

@@ -1,0 +1,36 @@
+<!-- radio button  -->
+<!-- select tag -->
+<!-- textarea  -->
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inputs Demo</title>
+  </head>
+  <body>
+    <!-- apenas permite selecionar um (multiplas escolhas) -->
+    <!-- <input type="radio" name="" value=""> -->
+    <!-- permite selecionar ou não -->
+    <!-- <input type="checkbox" name="" value=""> -->
+
+    <p> Do you prefer cats or dogs ?</p>
+    <form class="" action="index.html" method="post">
+      <label for="dogs">Dogs:</label>
+      <input id="dogs"type="radio" name="Petchoice" value="Dogs">
+      <!-- ao enviar o input faz com que Petchoice = Dogs, isto é, name = value -->
+      <label for="cats">Cats</label>
+      <input id="cats" type="radio" name="Petchoice" value="Cats">
+      <!-- dando o mesmo nome para inputs, restringe a escolha a apenas um  -->
+      <p> What's your favorite color?</p>
+      <select class="" name="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+      <!-- box de texto  -->
+      <textarea name="paragraf" rows="10" cols="20"></textarea>
+      <button type="button" name="button">Go!</button>
+    </form>
+
+  </body>
+</html>
