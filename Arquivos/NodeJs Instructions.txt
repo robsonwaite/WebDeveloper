@@ -1,0 +1,21 @@
+Introdução
+
+Criação de um 'programa'
+1° Passo
+npm init >> configurações (Enter em todas as opções)
+** entry point >> pode mudar para o nome que convir 
+
+2° Passo
+touch 'nome colocado como entry point'
+npm install express --save
+
+3° Passo 
+criação do script
+
+4° Passo 
+>> node 'nome colocado como entry point'
+
+OBS
+
+ao empregar ejs é necessario executar a instalação
+npm install ejs --save

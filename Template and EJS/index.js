@@ -3,6 +3,8 @@ var app = express();
 
 // configurar uma nova pasta 
 app.use(express.static("public")) // agora os arquivos existentes na pasta public serão utilizados
+app.use(express.static("partials")) // agora os arquivos existentes na pasta public serão utilizados
+app.set("partials", "/partials")
 // configurar a utilização de arquivos ejs
 app.set("view engine", "ejs")
 
@@ -19,7 +21,7 @@ app.get("/teste/:variavel", function (req, res){
     var variavel = req.params.variavel;
     // res.send("teste - "+ variavel); subsitituido por arquivo .ejs
     // instruções de java dentro do ejs que vai ser renderizado utilizam <% %> (para logicas etc) <%= %> (para display)
-    res.render("getAnswer", {variavel:variavel});
+    res.render("getAnswer", {variavel:varr});
   });
   // pagina de post - reddit exemplo
 app.get("/post", function (req, res) {
