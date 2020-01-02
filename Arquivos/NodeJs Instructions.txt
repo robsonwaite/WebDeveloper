@@ -19,3 +19,10 @@ OBS
 
 ao empregar ejs é necessario executar a instalação
 npm install ejs --save
+
+
+
+__________________________________________________
+
+Fazer requests _
+npm install request
