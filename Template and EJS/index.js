@@ -3,7 +3,7 @@ var app = express();
 
 // configurar uma nova pasta 
 app.use(express.static("public")) // agora os arquivos existentes na pasta public serão utilizados
-app.use(express.static("partials")) // agora os arquivos existentes na pasta public serão utilizados
+app.use(express.static("partials")) // agora os arquivos existentes na pasta partials serão utilizados
 app.set("partials", "/partials")
 // configurar a utilização de arquivos ejs
 app.set("view engine", "ejs")
