@@ -1,11 +1,4 @@
 <%- include("partials/header") %>
-
-
-
-
-
-
-
 <div class="container">
 <header class="jumbotron">
     <div class="container">
@@ -14,20 +7,21 @@
     <p class="btn btn-dark btn-lg"><a href="/campgrounds/new">Add a New Camp!</a></p>
     </div>   
 </header>
-
-
 <!-- some comment -->
-
 <div class="row text-center" style="display: flex; flex-wrap: wrap;">
     <% campgrounds.forEach(function(campgrounds){ %>
         <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
-                  <div class="caption"><h4><%=campgrounds.name%></h4></div>    
-                 <img src=" <%= campgrounds.image %> "class="img-fluid" alt="Responsive image" >
+                      
+                  <img src=" <%= campgrounds.image %> "class="img-fluid" alt="Responsive image" >
+                  <div class="caption">
+                    <h4><%=campgrounds.name%></h4>
+                  </div>
+                  <p>
+                    <a href="/campgrounds/<%= campgrounds._id %>" class="btn btn-dark btn-md"> More Info</a>
+                  </p>
                 </div>
             </div>
     <% }); %>
 </div>
-
-
 <%- include("partials/footer") %>
